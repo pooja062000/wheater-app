@@ -1,0 +1,55 @@
+*{
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/pa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    /*border: 2px solid red;*/
+}
+
+.box{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.outer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.city{
+    font-size: 30px;
+    color: white;
+    margin: 20px 0;
+}
+
+.tem{
+    font-size: 70px;
+    color: white;
+    margin-top: 10px;
+}
+.weat, .min-max{
+    font-size: 25px;
+    color: white;
+    margin-top: 6px;
+}
