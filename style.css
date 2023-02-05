@@ -53,3 +53,15 @@ body{
     color: white;
     margin-top: 6px;
 }
+
+.mist{
+    background-image: url('images/mist.jpg');
+}
+
+.clear{
+    background-image: url('images/clear.jpg');
+}
+
+.clouds{
+    background-image: url('images/clouds.jpg');
+}
